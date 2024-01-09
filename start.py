@@ -62,7 +62,7 @@ def travel_plan_program():
     customer_data = load_customer_data('clients.xlsx')
     start_date = input("输入出差开始日期 (格式：YYYY-MM-DD): ")
     end_date = input("输入出差结束日期 (格式：YYYY-MM-DD): ")
-    api_key = "AIzaSyBM3W2pp5kolA2wUKUzHHBzJ0NXNekSGG8" 
+    api_key = "" 
     customers_per_day = int(input("输入每天计划拜访的客户数量: "))
     total_days = calculate_trip_days(start_date, end_date)
 
